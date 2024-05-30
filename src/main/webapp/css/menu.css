@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Jua';
+    src: url('Jua-Regular.ttf') format('truetype');
+}
+
+* {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: url(../images/free-icon-selection-5112722.png) 2 2, auto;
+}
+
+a:hover {
+  cursor: url(../images/free-icon-selection-5112856.png) 2 2, auto;
+}
+
+input:hover{
+  cursor: url(../images/free-icon-selection-5112856.png) 2 2, auto !important;
+}
+
+select:hover {
+  cursor: url(../images/free-icon-selection-5112856.png) 2 2, auto;
+}
+
+#event:hover{
+	cursor: url(../images/free-icon-selection-5112856.png) 2 2, auto !important;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	padding: 0;
+	margin: 0;
+}
+
+
+#container {
+	width: 100%;
+	max-width: 1200px; margin : 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #303960;
+	color: white;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #303960;
+	border: solid 7px #F8B24F;
+	background-color: white;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 25px;
+	font-size: 45px;
+	font:bold;
+	width: 200px; /* 버튼의 너비를 200px로 고정 */
+	height: 100px; /* 버튼의 높이를 60px로 고정 */
+	text-align: center; /* 텍스트를 가운데 정렬 */
+	line-height: 100px; /* 텍스트의 수직 가운데 정렬 */
+}
+
+section {
+	background-color:#E5E5E5;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background-color: #303960;
+	color: white;
+	border-radius: 5px;
+}
